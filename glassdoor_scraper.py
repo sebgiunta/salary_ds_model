@@ -25,7 +25,7 @@ def get_jobs(num_jobs, verbose):
     driver.set_window_size(1120, 1000)
 
     # Set the URL, with the keyword already set.
-    url = 'https://www.glassdoor.com.au/Job/australia-data-scientist-jobs-SRCH_IL.0,9_IN16_KO10,25.htm'
+    url = 'https://www.glassdoor.com.au/Job/australia-data-analyst-jobs-SRCH_IL.0,9_IN16_KO10,22.htm'
     driver.get(url)
     jobs = []
     
